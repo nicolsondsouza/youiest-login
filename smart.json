@@ -1,0 +1,11 @@
+{
+      "name": "youiest-login",
+      "description": "Login package for Youiest LLC",
+      "homepage": "https://github.com/nicolsondsouza/youiest-login",
+      "author": "Youiest LLC <decivote@gmail.com> (http://youiest.com)",
+      "version": "0.1.0",
+      "git": "https://github.com/nicolsondsouza/youiest-login.git",
+      "packages": {
+            
+      }
+}

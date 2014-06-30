@@ -1,6 +1,7 @@
 // Core Package modification for phonegap
 // Oauth package
- Package.oauth.Oauth.showPopup =  function (url, callback, dimensions) {                          
+var  Oauth = Package.oauth.Oauth;
+Oauth.showPopup =  function (url, callback, dimensions) {                          
     var popup = openCenteredPopup(                                                  
             url,                                                                          
             (dimensions && dimensions.width) || 650,                                      
@@ -96,23 +97,6 @@ Package.oauth.Oauth.initiateLogin = function (credentialToken, url, callback, di
 // Oauth ends
 // Core Package modification for phonegap
 
-    // $("#loginButton,#loginwithInsta").hammer().off("tap",clickOnLoginButton);
-    // $("#loginButton,#loginwithInsta").hammer().on("tap",clickOnLoginButton);
-
-    // // $("#loginWithAppButton").hammer().off("tap",onLoginWithApp);
-    // // $("#loginWithAppButton").hammer().on("tap",onLoginWithApp);
-
-    // // $("#signupWithAppButton").hammer().off("tap",onLoginWithApp);
-    // // $("#signupWithAppButton").hammer().on("tap",onLoginWithApp);
-
-    // $("#seLoginThankyou").hammer().off("tap",onLoginWithTapmate);
-    // $("#seLoginThankyou").hammer().on("tap",onLoginWithTapmate);
-
-    // $("#seSignup").hammer().off("tap",onSignUpWithTapmate);
-    // $("#seSignup").hammer().on("tap",onSignUpWithTapmate);
-
-    // $("#seLoginLogin").hammer().off("tap",onLoginWithHashRepublic);
-    // $("#seLoginLogin").hammer().on("tap",onLoginWithHashRepublic);
 
 Login = {};
 
